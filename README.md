@@ -129,7 +129,7 @@ cd vanilla-stats
 claude
 ```
 
-Then paste this prompt:
+Then paste this (or similar) prompt:
 
 > Check for any Google Core Updates or AI Overviews changes released after March 2026 and add them to the SERP_EVENTS array in ga4.html. Use type 'google' for Core Updates and 'aio' for AI Overviews. Keep the same format as existing entries.
 
@@ -151,10 +151,6 @@ Drop all 6 files from `demo-data/` to see the full dashboard.
 - CSS custom properties, system fonts
 - FileReader API for CSV parsing
 - sessionStorage for persistence
-
-## Design
-
-Follows the "Productivity Minimalist" design system — inspired by Linear, Superhuman, and Vercel. White background, one accent color, system fonts, generous whitespace.
 
 ## License
 
